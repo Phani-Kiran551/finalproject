@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2"
+    android:background="@android:color/background_dark"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            app:cardBackgroundColor="#F8B195"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="10sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="280sp"
+            android:layout_height="280sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#000"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="60sp"
+                android:layout_gravity="center"
+                android:text="YEAR I"
+                android:textColor="#F8B195"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15sp"
+                android:layout_gravity="center"
+                android:text="SEM I"
+                android:onClick="semI"
+                android:textColor="#F8B195"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="80sp"
+                android:layout_gravity="center"
+                android:text="SEM II"
+                android:onClick="semII"
+                android:textColor="#F8B195"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            app:cardBackgroundColor="#F67280"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="10sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="280sp"
+                android:layout_height="280sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="60sp"
+                android:layout_gravity="center"
+                android:text="YEAR II"
+                android:textColor="#F67280"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15sp"
+                android:layout_gravity="center"
+                android:text="SEM III"
+                android:onClick="semIII"
+                android:textColor="#F67280"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="80sp"
+                android:layout_gravity="center"
+                android:text="SEM IV"
+                android:onClick="semIV"
+                android:textColor="#F67280"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            app:cardBackgroundColor="#C06C84"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="10sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="280sp"
+                android:layout_height="280sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:layout_marginBottom="60sp"
+                    android:layout_gravity="center"
+                    android:text="YEAR III"
+                    android:textColor="#C06C84"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/yatra_one"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+
+                    android:layout_marginTop="15sp"
+                    android:layout_gravity="center"
+                    android:text="SEM V"
+                    android:onClick="semV"
+                    android:textColor="#C06C84"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/yatra_one" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:layout_marginTop="80sp"
+                    android:layout_gravity="center"
+                    android:text="SEM VI"
+                    android:onClick="semVI"
+                    android:textColor="#C06C84"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/yatra_one" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            app:cardBackgroundColor="#6C5B7B"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="10sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="280sp"
+                android:layout_height="280sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="60sp"
+                android:layout_gravity="center"
+                android:text="YEAR IV"
+                android:textColor="#6C5B7B"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15sp"
+                android:layout_gravity="center"
+                android:text="SEM VII"
+                android:onClick="semVII"
+                android:textColor="#6C5B7B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_marginTop="80sp"
+                android:layout_gravity="center"
+                android:text="SEM VIII"
+                android:onClick="semVIII"
+                android:textColor="#6C5B7B"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/yatra_one" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_page4"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#F8B195"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="0sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:textColor="#fff"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#F67280"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Civil"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#C06C84"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ECE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#6C5B7B"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EEE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#355C7D"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
+</ScrollView>
